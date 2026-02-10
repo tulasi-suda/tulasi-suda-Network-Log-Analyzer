@@ -1,0 +1,11 @@
+{
+    "blacklisted_ips": ["192.168.1.100", "10.0.0.5"],
+    "thresholds": {
+        "failed_logins": 5,
+        "failed_logins_window": 120,
+        "high_traffic": 100,
+        "high_traffic_window": 10
+    },
+    "restricted_endpoints": ["/admin", "/config", "/restricted"],
+    "allowed_countries": ["US", "UK", "CA"]
+}
